@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+    list-style-type: none;
+}
+header {
+    background-color: blue;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+}
+.logo{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.bot a button{
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:white;
+    color:black;
+
+}
+.navigation a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: #601cfc;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(./f.jpg);
+    background-color: cover;
+}
+.box{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 40px;
+    background-color: rgba(0, 0,0, .8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0,0, .5);
+    border-radius: 10px;
+    
+}
+.box h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+.box .inputbox {
+    position: relative;
+}
+.box .inputbox input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+}
+.box .inputbox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    color:#fff;
+    
+}
+.box input[type="submit"]{
+    background: transparent;
+    border: none;
+    outline: none;
+    color:black;
+    background: blue;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
